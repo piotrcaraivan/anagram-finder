@@ -57,10 +57,11 @@ python src/anagram_finder.py sample.txt --min-length 3
 python src/anagram_finder.py sample.txt > output.txt
 ``` 
 
+---
 
-Example:
+## Example:
 
-Input (sample.txt):
+### Input (sample.txt):
 ```bash
 act
 cat
@@ -71,8 +72,7 @@ acre
 bee
 ```
 
-
-Output:
+### Output:
 ```bash
 act cat
 acre care race
@@ -88,7 +88,8 @@ Diacritics are removed (Café → cafe) using unicodedata.normalize("NFKD", ...)
 
 Only letters a–z are kept; digits, spaces, and symbols are ignored.
 
-🧪 Tests
+
+### 🧪 Tests
 
 Unit tests are written with Python’s built-in unittest.
 
@@ -109,12 +110,12 @@ Handles millions of words on a single machine by streaming input.
 See DESIGN.md
  for details on scaling to 10M and even 100B words (via spill files or MapReduce/Spark).
 
-📦 Requirements
+## 📦 Requirements
 
 Python 3.8+
 
 No external dependencies (standard library only).
 
-📝 License
+## 📝 License
 
 MIT — feel free to use, modify, and share.
