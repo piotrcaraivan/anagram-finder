@@ -1,0 +1,5 @@
+# requirements.txt
+
+# This project uses only the Python standard library.
+# Just ensure you are running Python 3.8 or later.
+python>=3.8
