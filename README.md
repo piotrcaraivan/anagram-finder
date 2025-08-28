@@ -89,7 +89,7 @@ Diacritics are removed (Café → cafe) using unicodedata.normalize("NFKD", ...)
 Only letters a–z are kept; digits, spaces, and symbols are ignored.
 
 
-##🧪 Tests
+## 🧪 Tests
 
 Unit tests are written with Python’s built-in unittest.
 
