@@ -61,6 +61,7 @@ python src/anagram_finder.py sample.txt > output.txt
 Example:
 
 Input (sample.txt):
+```bash
 act
 cat
 tree
@@ -68,13 +69,16 @@ race
 care
 acre
 bee
+```
 
 
 Output:
+```bash
 act cat
 acre care race
 tree
 bee
+```
 
 Normalization
 
@@ -89,13 +93,13 @@ Only letters a–z are kept; digits, spaces, and symbols are ignored.
 Unit tests are written with Python’s built-in unittest.
 
 # Run all tests
-
+```
 python -m unittest discover -s tests -p "test_*.py"
-
+```
 # Run a specific module
-
+```
 python -m unittest tests.test_anagram_finder
-
+```
 ⚡ Performance & Scalability
 
 Time complexity: O(N·L) (N words, L avg. length).
