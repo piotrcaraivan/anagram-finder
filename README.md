@@ -31,15 +31,17 @@ anagram-finder/
 └── DESIGN.md # design decisions
 
 
+
 ---
 
-## 🚀 Quick start
+## 🚀 Usage
 
-# Clone the repository
+```bash
+# Clone the repo
 git clone https://github.com/<your-username>/anagram-finder.git
 cd anagram-finder
 
-# Run on the included sample.txt
+# Run on sample.txt
 python src/anagram_finder.py
 
 # Run on a custom file
@@ -51,11 +53,12 @@ python src/anagram_finder.py sample.txt --no-single
 # Filter by length (after normalization)
 python src/anagram_finder.py sample.txt --min-length 3
 
-# Save results to file
+# Save results to a file
 python src/anagram_finder.py sample.txt > output.txt
+``` 
 
 
-Example
+Example:
 
 Input (sample.txt):
 act
@@ -86,9 +89,11 @@ Only letters a–z are kept; digits, spaces, and symbols are ignored.
 Unit tests are written with Python’s built-in unittest.
 
 # Run all tests
+
 python -m unittest discover -s tests -p "test_*.py"
 
 # Run a specific module
+
 python -m unittest tests.test_anagram_finder
 
 ⚡ Performance & Scalability
