@@ -38,7 +38,7 @@ anagram-finder/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/anagram-finder.git
+git clone https://github.com/piotrcaraivan/anagram-finder
 cd anagram-finder
 
 # Run on sample.txt
